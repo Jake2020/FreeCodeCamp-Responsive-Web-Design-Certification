@@ -1,0 +1,12 @@
+/* survey-form.css */
+
+#main {
+    border-radius: 5px;
+    background-color: rgb(222, 215, 174);
+    min-height: 98vh;
+    width: 80vw;
+}
+
+#image {
+    width: 50%;
+}
