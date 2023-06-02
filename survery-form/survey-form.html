@@ -22,7 +22,7 @@
 <!-- Form Description Row -->
 <div class="row text-center">
     <div class="col">
-        <p id="description">A form to learn about your car preferences:</p>
+        <p id="description">A form for bikers:</p>
     </div>
 </div>
 
@@ -31,26 +31,81 @@
 
     <!-- Name Input -->
     <div class="row py-1">
-        <label class="col-4 form-label py-1" id="name-label">Name:</label>
-        <div class="col-8">
+        <label class="text-start col-5 form-label py-1" id="name-label">Name:</label>
+        <div class="col-7">
             <input class="form-control" id="name" type="text" placeholder="Name" required></input>
         </div>
     </div>  
 
     <!-- Email Input -->
     <div class="row py-1">
-        <label class="col-4 form-label py-1" id="email-label">Email:</label>
-        <div class="col-8">
+        <label class="text-start col-5 form-label py-1" id="email-label">Email:</label>
+        <div class="col-7">
             <input class="form-control" id="email" type="email" placeholder="Email" required></input>
         </div>
     </div>  
 
     <!-- Number Input -->
     <div class="row py-1">
-        <label class="col-4 form-label py-1" id="number-label">Cars Owned:</label>
-        <div class="col-8">
+        <label class="text-start col-5 form-label py-1" id="number-label">Bikes Owned:</label>
+        <div class="col-7">
             <input class="col form-control" id="number" type="number" placeholder="Number" min="1" max="99"></input>
         </div>
+    </div>  
+
+    <!-- Dropdown Input -->
+    <div class="row py-1">
+        <label class="text-start col-6 form-label py-1" id="select">Favorite Bike Brand:</label>
+        <div class="col-6 justify-content-end">
+            <select class="form-select" name="brand" id="dropdown">
+                <option value="GasGas">GasGas</option>
+                <option value="Norton ">Norton</option>
+              </select>
+        </div>
+    </div>  
+
+    <!-- Radio Buttons -->
+    <div class="row py-1">
+        <div class="text-start col-6">
+            <label class="form-label py-1">Favorite Speed:</label>
+        </div>
+        <div class="col-6">
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="radio" value="fast" checked>
+                <label class="form-check-label mx-1" for="flexRadioDefault1">Fast</label>
+            </div>
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="radio" value="slow">
+                <label class="form-check-label mx-1" for="flexRadioDefault2">Slow</label>
+            </div>
+        </div>    
+    </div>  
+
+    <!-- Check Boxes -->
+    <div class="row py-1">
+        <div class="text-start col-6">
+            <label class="form-label py-1">Favorite Roads:</label>
+        </div>
+        <div class="col-6">
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="checkbox" value="twisty" checked>
+                <label class="form-check-label mx-1" for="flexCheckDefault">Twisty</label>
+            </div>
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="checkbox" value="straight">
+                <label class="form-check-label mx-1" for="flexCheckChecked">Straight</label>
+            </div>
+        </div>    
+    </div>  
+
+    <!-- Text Area -->
+    <div class="row py-1 px-2">
+        <textarea class="form-control" placeholder="Leave a comment here"></textarea>
+    </div>  
+
+    <!-- Text Area -->
+    <div class="row px-2">
+        <button type="sumbit" id="submit" class="btn btn-warning">Submit</button>
     </div>  
 
 </form>
