@@ -9,13 +9,13 @@ GitHub Pages Link (for my reference): https://jake2020.github.io/FreeCodeCamp-Re
 ## The following projects/coding challenges were completed to gain this certification:
 
 1. [Survey Form](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/survey-form/survey-form.html)
-2. Tribute Page (Coming Soon)
+2. [Tribute Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/tribute-page/tribute-page.html)
 3. Technical Documentation Page (Coming Soon)
 4. Product Landing Page (Coming Soon)
 5. Personal Portfolio Page (Coming Soon)
 
 ## Project 1: [Survey Form](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/survey-form/survey-form.html)
-*Note: *
+*Note: The form isn't submitted to anywhere so nothing happens when you click submit*
 
 Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
@@ -38,11 +38,22 @@ User Stories:
 - Inside the form element, you are presented with a textarea for additional comments
 - Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
-## Project 2: Tribute Page (Coming Soon)
+## Project 2: [Tribute Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/tribute-page/tribute-page.html)
+*Note: The image is something I made in paint so I don't have to deal with potential copywright issues*
 
-Objective:
+Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
 User Stories:
+
+- Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+- You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+- You should see either a figure or a div element with an id of img-div
+- Within the #img-div element, you should see an img element with a corresponding id="image"
+- Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
+- You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
+- You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
+- Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+- Your img element should be centered within its parent element
 
 ## Project 3: Tribute Page (Coming Soon)
 
