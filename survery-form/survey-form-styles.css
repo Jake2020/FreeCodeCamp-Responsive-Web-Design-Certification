@@ -1,0 +1,10 @@
+/* survey-form.css */
+
+#survey-form {
+    width: 75vw;
+    border-radius: 5px;
+}
+
+.form-label {
+    font-size: 20px;
+}
