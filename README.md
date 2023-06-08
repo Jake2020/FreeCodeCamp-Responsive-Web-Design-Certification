@@ -78,13 +78,13 @@ User Stories:
 - On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user
 - Your technical documentation should use at least one media query
 
-## Project 4: Tribute Page (Coming Soon)
+## Project 4: Product Landing Page (Coming Soon)
 
 Objective:
 
 User Stories:
 
-## Project 5: Tribute Page (Coming Soon)
+## Project 5: Personal Portfolio Page (Coming Soon)
 
 Objective:
 
