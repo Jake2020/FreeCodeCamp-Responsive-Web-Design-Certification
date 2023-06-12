@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jake's Technical Documentation Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="technical-documentation-page-styles.css">
+
+</head>
+
+<body class="bg-primary container-fluid">
+
+<!-- Container -->
+<div class="container" id="container">
+
+  <!-- Header -->
+  <header class="row py-2" id="header">
+
+      <!-- Nav Links -->
+      <nav class="navbar navbar-expand-lg bg-light" id="nav-bar">
+        <div class="container-fluid">
+          <div class="col-3">
+            <img id="header-img" src="icon-placeholder-image.jpg" width="25" height="25">
+          </div>
+          <div class="col-6 text-center">
+            <a class="navbar-brand" href="#">Jake's Product Landing Page</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-3">
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#info-section">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#video-section">Video</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#form-section">More Info</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <!-- Info -->
+  <section class="bg-light row pt-2 text-center" id="info-section">
+    <div class=" row py-2 text-center">
+      <p class="fs-2 fw-bold text-decoration-underline">One-Handed Drum Sticks</p>
+    </div>
+    <div class="row text-center lh-1 py-2">
+      <p class="fs-4">Made of Wood!</p>
+      <p class="fw-light">(Premium off-cuts)</p>
+    </div>
+    <div class="row text-center lh-1 py-2">
+      <p class="fs-4">Sticky!</p>
+      <p class="fw-light">...As in made from sticks...</p>
+    </div>
+    <div class="row text-center lh-1 py-2">
+      <p class="fs-4">Hit things!</p>
+      <p class="fw-light">They may or may not break.</p>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="bg-light row py-2 my-2 text-center" id="video-section">
+    <div class="row py-2 text-center">
+      <p class="fs-2 fw-bold text-decoration-underline">Watch Demo Video</p>
+    </div>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/JemCbY6bblo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="bg-light row py-2 my-2" id="form-section">
+    <div class="row py-2 text-center">
+      <p class="fs-2 fw-bold text-decoration-underline">Get more Info</p>
+    </div>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <div class="row">
+        <div class="col-8">
+            <input class="form-control" id="email" name="email" type="email" placeholder="Email" required></input>
+        </div>
+        <div class="col-4">
+          <button type="sumbit" class="btn w-100 btn-warning" formaction="https://www.freecodecamp.com/email-submit">Submit</button> 
+          <!-- <input id="submit" type="submit" class="btn w-100 btn-warning" placeholder="Submit"></input> -->
+        </div>   
+      </div>
+    </form>
+  </section>
+
+</div>
+</div>
+
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>

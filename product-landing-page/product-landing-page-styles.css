@@ -1,0 +1,7 @@
+/* product-landing-page-styles.css */
+
+.container {
+    width: 75vw;
+    min-height: 100%;
+    border-radius: 5px;
+}
