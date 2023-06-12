@@ -11,7 +11,7 @@ GitHub Pages Link (for my reference): https://jake2020.github.io/FreeCodeCamp-Re
 1. [Survey Form](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/survey-form/survey-form.html)
 2. [Tribute Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/tribute-page/tribute-page.html)
 3. [Technical Documentation Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/technical-documentation-page/technical-documentation-page.html)
-4. [Product Landing Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/technical-documentation-page/product-landing-page.html)
+4. [Product Landing Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/product-landing-page/product-landing-page.html)
 5. Personal Portfolio Page (Coming Soon)
 
 ## Project 1: [Survey Form](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/survey-form/survey-form.html)
@@ -78,7 +78,7 @@ User Stories:
 - On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user
 - Your technical documentation should use at least one media query
 
-## Project 4: [Product Landing Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/technical-documentation-page/product-landing-page.html)
+## Project 4: [Product Landing Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/product-landing-page/product-landing-page.html)
 *Note: The media query and flexbox user story is achieved with bootstrap responsive sizing*
 
 Objective: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
