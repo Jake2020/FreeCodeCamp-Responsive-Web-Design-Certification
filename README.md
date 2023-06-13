@@ -12,7 +12,7 @@ GitHub Pages Link (for my reference): https://jake2020.github.io/FreeCodeCamp-Re
 2. [Tribute Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/tribute-page/tribute-page.html)
 3. [Technical Documentation Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/technical-documentation-page/technical-documentation-page.html)
 4. [Product Landing Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/product-landing-page/product-landing-page.html)
-5. Personal Portfolio Page (Coming Soon)
+5. [Personal Portfolio Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/portfolio-page/portfolio-page.html)
 
 ## Project 1: [Survey Form](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/survey-form/survey-form.html)
 *Note: The form isn't submitted to anywhere so nothing happens when you click submit*
@@ -101,8 +101,21 @@ User Stories:
 - Your product landing page should have at least one media query
 - Your product landing page should utilize CSS flexbox at least once
 
-## Project 5: Personal Portfolio Page (Coming Soon)
+## Project 5: [Personal Portfolio Page](https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/portfolio-page/portfolio-page.html)
 
-Objective:
+Objective: Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
+*Note: The media query user story is achieved with bootstrap responsive sizing*
 
-User Stories:
+User Stories: 
+
+- Your portfolio should have a welcome section with an id of welcome-section
+- The welcome section should have an h1 element that contains text
+- Your portfolio should have a projects section with an id of projects
+- The projects section should contain at least one element with a class of project-tile to hold a project
+- The projects section should contain at least one link to a project
+- Your portfolio should have a navbar with an id of navbar
+- The navbar should contain at least one link that you can click on to navigate to different sections of the page
+- Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+- Your portfolio should have at least one media query
+- The height of the welcome section should be equal to the height of the viewport
+- The navbar should always be at the top of the viewport
