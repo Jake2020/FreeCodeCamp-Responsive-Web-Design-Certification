@@ -13,27 +13,29 @@
 <body class="bg-info">
 
   <!-- Header -->
-  <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top" id="navbar">
+  <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top" id="navbar" style="height: 70px;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">JR</a>
-      <div class="col-autolapse navbar-col-autolapse">
+      <a class="navbar-brand" href="#" style="font-size: 30px;">JR</a>
+      <div class="col-3lapse navbar-col-3lapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="#welcome-section" style="font-size: 24px;">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Work</a>
+            <a class="nav-link active" href="#projects" style="font-size: 24px;">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link active" href="#contact" style="font-size: 24px;">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+
 <div class="container-fluid bg-info">
 
+  <!-- Intro -->
   <section class="min-vh-100 d-flex align-items-center justify-content-center" id="welcome-section">
     <div class="text-center">
       <h1 class="text-white">Hello, I'm Jake</h1>
@@ -41,102 +43,71 @@
     </div>
   </section>
 
-  <!-- Section 2: 2x3 Grid of Projects -->
-  <section class="min-vh-100 d-flex align-items-center justify-content-center bg-secondary" id="projects">
-    <div class="container">
-      <h1 class="text-decoration-underline text-white text-center my-4">These are some of my projects</h1>
-      <div class="row row-col-autos-1 row-col-autos-md-2 row-col-autos-lg-3 g-4">
-        <div class="bg-light col-auto mb-4 pt-4">
-          <a href="#" class="text-decoration-none">
-            <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid border" style="object-fit: cover;">
-            <h4 class="mt-3 text-center">Survey Form</h4>
-          </a>
-        </div>
-        <div class="bg-light col-auto mb-4 pt-4">
-          <a href="#" class="text-decoration-none">
-            <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-            <h4 class="mt-3 text-center">Survey Form</h4>
-          </a>
-        </div>
-        <div class="bg-light col-auto mb-4 pt-4">
-          <a href="#" class="text-decoration-none">
-            <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-            <h4 class="mt-3 text-center">Survey Form</h4>
-          </a>
-        </div>
-        <div class="bg-light col-auto mb-4 pt-4">
-          <a href="#" class="text-decoration-none">
-            <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-            <h4 class="mt-3 text-center">Survey Form</h4>
-          </a>
-        </div>
-        <div class="bg-light col-auto mb-4 pt-4">
-          <a href="#" class="text-decoration-none">
-            <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-            <h4 class="mt-3 text-center">Survey Form</h4>
-          </a>
-        </div>
-        <div class="bg-light col-auto mb-4 pt-4">
-          <a href="#" class="text-decoration-none">
-            <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-            <h4 class="mt-3 text-center">Survey Form</h4>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 2:  Grid of Projects -->
-  <!-- Section 2:  Need to figure out how to stop images after a certain size so they stop growing -->
-  <section class="container-fluid mt-4 bg-secondary min-vh-100" id="projects">
+  <!-- Grid of Projects -->
+  <section class="container-fluid my-4 pb-4 min-vh-100 bg-secondary rounded" id="projects">
     <div class="row pt-2 row-col-3">
       <h1 class="text-white text-decoration-underline text-center my-4">These are some of my projects</h1>
     </div>
     <div class="row pt-2 justify-content-center">
-      <div class="col-auto bg-white m-3 p-3">
-        <a href="#" class="text-decoration-none">
-          <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-          <h4 class="mt-3 text-center">Survey Form</h4>
+      <div class="col-sm-12 col-md-5 col-lg-3 bg-light m-3 p-3 rounded">
+        <a href="https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/survey-form/survey-form.html" target="_blank" class="text-decoration-none">
+          <img src="project-thumbnails/form.png" alt="form" class="img-fluid" style="object-fit: cover;">
+          <h4 class="mt-3 text-center text-body">Survey Form</h4>
         </a>
       </div>
-      <div class="col-auto bg-white m-3 p-3">
-        <a href="#" class="text-decoration-none">
-          <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-          <h4 class="mt-3 text-center">Survey Form</h4>
+      <div class="col-sm-12 col-md-5 col-lg-3 bg-light m-3 p-3 rounded">
+        <a href="https://jake2020.github.io/FreeCodeCamp-Front-End-Development-Libraries/DrumMachine.html" target="_blank" class="text-decoration-none">
+          <img src="project-thumbnails/drum.jpg" alt="drum" class="img-fluid" style="object-fit: cover;">
+          <h4 class="mt-3 text-center text-body">Drum Machine</h4>
         </a>
       </div>
-      <div class="col-auto bg-white m-3 p-3">
-        <a href="#" class="text-decoration-none">
-          <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-          <h4 class="mt-3 text-center">Survey Form</h4>
+      <div class="col-sm-12 col-md-5 col-lg-3 bg-light m-3 p-3 rounded">
+        <a href="https://jake2020.github.io/FreeCodeCamp-Front-End-Development-Libraries/RandomQuoteMachine.html" target="_blank" class="text-decoration-none">
+          <img src="project-thumbnails/quote.png" alt="quote" class="img-fluid" style="object-fit: cover;">
+          <h4 class="mt-3 text-center text-body">Random Quote Generator</h4>
         </a>
       </div>
-      <div class="col-auto bg-white m-3 p-3">
-        <a href="#" class="text-decoration-none">
-          <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-          <h4 class="mt-3 text-center">Survey Form</h4>
+      <div class="col-sm-12 col-md-5 col-lg-3 bg-light m-3 p-3 rounded">
+        <a href="https://jake2020.github.io/FreeCodeCamp-Front-End-Development-Libraries/calculator/javascript-calculator.html" target="_blank" class="text-decoration-none">
+          <img src="project-thumbnails/calc.png" alt="form" class="img-fluid" style="object-fit: cover;">
+          <h4 class="mt-3 text-center text-body">Javascript Calculator</h4>
         </a>
       </div>
-      <div class="col-auto bg-white m-3 p-3">
-        <a href="#" class="text-decoration-none">
-          <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-          <h4 class="mt-3 text-center">Survey Form</h4>
+      <div class="col-sm-12 col-md-5 col-lg-3 bg-light m-3 p-3 rounded">
+        <a href="https://jake2020.github.io/FreeCodeCamp-Responsive-Web-Design-Certification/technical-documentation-page/technical-documentation-page.html" target="_blank" class="text-decoration-none">
+          <img src="project-thumbnails/tech.png" alt="form" class="img-fluid" style="object-fit: cover;">
+          <h4 class="mt-3 text-center text-body">Technical Documentation Page</h4>
         </a>
       </div>
-      <div class="col-auto bg-white m-3 p-3">
-        <a href="#" class="text-decoration-none">
-          <img src="project-thumbnails/form.jpg" alt="form" class="img-fluid" style="object-fit: cover;">
-          <h4 class="mt-3 text-center">Survey Form</h4>
+      <div class="col-sm-12 col-md-5 col-lg-3 bg-light m-3 p-3 rounded">
+        <a href="https://jake2020.github.io/FreeCodeCamp-Front-End-Development-Libraries/MarkdownPreviewer.html" target="_blank" class="text-decoration-none">
+          <img src="project-thumbnails/markdown.png" alt="form" class="img-fluid" style="object-fit: cover;">
+          <h4 class="mt-3 text-center text-body">Markdown Previewer</h4>
         </a>
       </div>
     </div>
   </section>
 
-
-
-  <section id="contact">
-    <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-    <p><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Dark link</a></p>
+  <!-- Contact -->
+  <section class="min-vh-100 d-flex align-items-center justify-content-center" id="contact">
+    <div class="text-center">
+      <h1 class="text-white">Get in contact:</h1>
+      <p class="text-white">...or see more projects...</p>
+      <div class="row justify-content-center mt-4">
+        <div class="col-auto">
+          <a href="https://github.com/Jake2020" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+            <img src="project-thumbnails/github-mark-white.png" alt="GitHub" class="img-fluid" style="max-height: 50px;">
+            <h4 class="mt-3 text-center text-white">Jake's Github</h4>
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="mailto:jake_robbins@hotmail.co.uk" class="text-decoration-none">
+            <img src="project-thumbnails/email1.png" alt="Email" class="img-fluid" style="max-height: 50px;">
+            <h4 class="mt-3 text-center text-white">Email Jake</h4>
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
 </div>  
